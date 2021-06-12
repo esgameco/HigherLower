@@ -14,8 +14,8 @@ contract HigherLower is Admin {
     uint public currentGame;
 
     // Timestamps for when to deal with bets
-    uint public betLength = 10;
-    uint public claimLength = 5;
+    uint public betLength = 60;
+    uint public claimLength = 30;
     uint public endBets;
     uint public startNext;
 
