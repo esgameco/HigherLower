@@ -5,6 +5,7 @@ At the end of the betting phase, whoever has the most eth bet wins the pot.
 
 # To Do
 
+- Add getTimeLeft method
 - Add withdraw option to ui
 - Add admin withdraw option to ui
 - Show ethereum address in ui
@@ -15,3 +16,5 @@ At the end of the betting phase, whoever has the most eth bet wins the pot.
 - Allow claiming only when it's available
 - Automatically update info after every event
 - List recent events
+- Remove all view functions from contract
+- Replace view function calls with calls to public variables
