@@ -18,37 +18,39 @@
             </div>
         </nav>
         <div class="container"></div>
-            <!-- Use templating later (handlebars) -->
-            <div class="d-flex col-sm-4 card">
-                <div class="card-body">
-                    <h3 class="card-title">New Game</h3>
-                    <p class="card-text">Starts a new HigherLower game</p>
-                    <button class="btn btn-primary" id="hl-btn-new-game">Go</button>
+            <div class="d-flex flex-nowrap">
+                <!-- Use templating later (handlebars) -->
+                <div class="col-sm-3 card">
+                    <div class="card-body">
+                        <h3 class="card-title">New Game</h3>
+                        <p class="card-text">Starts a new HigherLower game</p>
+                        <button class="btn btn-primary" id="hl-btn-new-game">Go</button>
+                    </div>
                 </div>
-            </div>
-            <div class="d-flex col-sm-4 card">
-                <div class="card-body">
-                    <h3 class="card-title">Bet</h3>
-                    <p class="card-text">Adds a bet to the pot</p>
-                    <button class="btn btn-primary" id="hl-btn-bet">Go</button>
+                <div class="col-sm-3 card">
+                    <div class="card-body">
+                        <h3 class="card-title">Bet</h3>
+                        <p class="card-text">Adds a bet to the pot</p>
+                        <button class="btn btn-primary" id="hl-btn-bet">Go</button>
+                    </div>
                 </div>
-            </div>
-            <div class="d-flex col-sm-4 card">
-                <div class="card-body">
-                    <h3 class="card-title">Claim</h3>
-                    <p class="card-text">Claims the pot</p>
-                    <button class="btn btn-primary" id="hl-btn-claim">Go</button>
+                <div class="col-sm-3 card">
+                    <div class="card-body">
+                        <h3 class="card-title">Claim</h3>
+                        <p class="card-text">Claims the pot</p>
+                        <button class="btn btn-primary" id="hl-btn-claim">Go</button>
+                    </div>
                 </div>
-            </div>
-            <div class="d-flex col-sm-4 card">
-                <div class="card-body">
-                    <h3 class="card-title">Info</h3>
-                    <p class="card-text">Current Game: <span id="hl-info-game">1</span></p>
-                    <p class="card-text">Bet Total: <span id="hl-info-bet-total">0.00 eth</span></p>
-                    <p class="card-text">Bet: <span id="hl-info-bet">0.00 eth</span></p>
-                    <p class="card-text">Claimable: <span id="hl-info-claimable">false</span></p>
-                    <p class="card-text">Can Start Next: <span id="hl-info-start-new">false</span></p>
-                    <button class="btn btn-primary" id="hl-btn-update-info">Update Info</button>
+                <div class="col-sm-3 card">
+                    <div class="card-body">
+                        <h3 class="card-title">Info</h3>
+                        <p class="card-text">Current Game: <span id="hl-info-game">1</span></p>
+                        <p class="card-text">Bet Total: <span id="hl-info-bet-total">0.00 eth</span></p>
+                        <p class="card-text">Bet: <span id="hl-info-bet">0.00 eth</span></p>
+                        <p class="card-text">Claimable: <span id="hl-info-claimable">false</span></p>
+                        <p class="card-text">Can Start Next: <span id="hl-info-start-new">false</span></p>
+                        <button class="btn btn-primary" id="hl-btn-update-info">Update Info</button>
+                    </div>
                 </div>
             </div>
         </div>

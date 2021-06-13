@@ -20,7 +20,6 @@ window.addEventListener('load', async () => {
 
     // Listeners
     newGameButton.addEventListener('click', newGame);
-    // get label element value and pass to bet to change the value of the bet
     betButton.addEventListener('click', bet);
     claimButton.addEventListener('click', claim);
     updateInfoButton.addEventListener('click', updateInfo);
@@ -78,6 +77,7 @@ const newGameAvailable = async () => {
 
 // Bets amount from account
 const bet = async () => {
+    // get label element value and pass to bet to change the value of the bet
     return await window.contract.methods.bet().send({'from': window.address, 'value': 10000000000000});
 };
 
