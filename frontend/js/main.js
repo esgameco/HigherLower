@@ -7,7 +7,8 @@ window.addEventListener('load', async () => {
     window.ethereum.request({method: 'eth_requestAccounts'});
     window.web3 = new Web3(window.ethereum);
     window.contract = await getContract();
-    window.address = '0x3Bc0b65ea00a69bb0315ab9b16431638d086D731'; // web3.eth.accounts[0] is equivalent for the future
+    const accounts = await web3.eth.getAccounts();
+    window.address = accounts[0];
 
     // Initializes info
     updateInfo();

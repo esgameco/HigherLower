@@ -3,7 +3,24 @@
 An ethereum DAPP that allows players to bet in order to win.  
 At the end of the betting phase, whoever has the most eth bet wins the pot.
 
-# To Do
+## Setup
+
+<!-- TODO: Finish writing these -->
+<!-- #### Testing
+```bash
+```
+
+#### Smart Contract
+```bash
+``` -->
+
+#### Frontend  
+```bash
+cd frontend
+serve
+```
+
+## To Do
 
 - Add getTimeLeft method
 - Add withdraw option to ui
